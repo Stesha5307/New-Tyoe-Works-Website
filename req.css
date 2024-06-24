@@ -1,0 +1,102 @@
+body {
+  font-family: 'Trispace', sans-serif;
+}
+.logo img {
+  padding: 0.5em;
+  width: 20%;
+  float: left;
+}
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.video-background {
+    position: absolutvee;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: black;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+ 
+}
+.pg-right, .pg-left {
+  padding: 20px;
+ 
+}
+.pg-right {
+  background-color: white;
+  border: 2px solid #660036; /* Dark green border */
+ 
+  padding: 20px; /* Padding inside the border */
+  box-shadow: 0 0 10px rgb(102, 0, 49, 0.5); /* Dark green box shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+
+.pg-left {
+  background-color: white;
+}
+
+.form iframe {
+  width: 100%;
+  height: 500px;
+}
+
+nav{
+  text-align: right;
+  font-size:15px;
+  background-color: white;
+border: 3px  solid #b57d98;
+   font-weight: bold;
+}
+ul{
+  list-style-type: none;
+   background-color: white;
+  overflow: hidden;
+  padding: 3em;
+  margin-bottom: 1em;
+
+   font-weight: bold;
+}
+
+li{
+  display: inline;
+   background-color: white;
+
+
+
+}
+li a{
+  text-decoration: none;
+color: black;
+  font-size: 1.3em;
+  padding: 1em;
+   background-color: white;
+
+   font-weight: bold;
+
+}
+
+container2{
+  padding-bottom: 500px;
+  
+}
+
+mis {
+    margin-top: 1000px; 
+}
