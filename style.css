@@ -1,0 +1,325 @@
+.page2{
+  background-color:#000000;
+}
+body {
+   font-family: 'Trispace', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+ 
+}
+.pg2-left {
+  font-family: 'Trispace', sans-serif;
+
+  font-size: 15px;
+  width: 35%;
+  background-size: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+
+
+}
+
+.pg3-left {
+  font-family: 'Trispace', sans-serif;
+
+  font-size: 15px;
+  width: 35%;
+  background-size: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 180px;
+  
+  
+
+}
+.pg4-right {
+  font-family: 'Trispace', sans-serif;
+
+  font-size: 15px;
+  width: 35%;
+  background-size: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+
+
+}
+
+.pg4-left {
+
+  float: left;
+ background-size: 100%;
+
+ background-color:#4e7e5a;
+
+  margin-top: 80px;
+  height: 400px;
+  width: 48%;
+
+
+
+}
+
+.pg5-left {
+  font-family: 'Trispace', sans-serif;
+
+  font-size: 15px;
+  width: 35%;
+  background-size: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  padding-top: 100px;
+
+
+
+}
+b{
+  font-size: 24;
+}
+
+.pg2-right {
+
+  float: right;
+ background-size: 100%;
+  
+ 
+ 
+  margin-top: 80px;
+  height: 400px;
+  width: 52%;
+ 
+
+
+}
+
+h1{
+padding: 3.5em;
+  text-align: center;
+  font-size: 20px
+  
+}
+h2{
+  padding-left: 1em;
+}
+h3{
+  padding-left: 35px;
+}
+h4{
+  padding-top: 0.3em;
+  color: white;
+  font-size: 20px;
+}
+h5{
+  padding-top: 2em;
+  color: black;
+  font-size: 20px;
+}
+
+h6{
+  padding-left: 0.5em;
+  font-size: 10px;
+}
+h10{
+  text-align:center;
+  font-size: 50px;
+  
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.historyList{
+  color:#ffFf;
+}
+
+
+
+nav{
+  text-align: right;
+  font-size:15px;
+  background-color: white;
+border: 3px  solid green;
+   font-weight: bold;
+}
+ul{
+  list-style-type: none;
+   background-color: white;
+  overflow: hidden;
+  padding: 3em;
+  margin-bottom: 1em;
+ 
+   font-weight: bold;
+}
+
+li{
+  display: inline;
+   background-color: white;
+
+
+  
+}
+li a{
+  text-decoration: none;
+color: black;
+  font-size: 1.3em;
+  padding: 1em;
+   background-color: white;
+ 
+   font-weight: bold;
+  
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0 20px; /* Add padding for equal spacing on both sides */
+}
+
+.idk:hover, .idk_arrow:hover {
+    background-color: #e0f7e0;
+    color: #0a3d14;
+}
+
+
+h6{
+  font-size: 70px;
+}
+
+
+
+.main-section {
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+}
+
+.filler {
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+  border: 50px;
+  border-radius: 10px;
+  border-color: blue;
+  
+}
+
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.first-box {
+  position: relative;
+  background-color: white;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 1;
+}
+
+
+
+
+.form{
+  float: center;
+}
+
+.fill{
+  padding: 3.5em;
+  text-align: center;
+  font-size: 20px
+  color: #0f5721;
+}
+
+@media (max-width: 600px) {
+  li a {
+      text-decoration: none;
+      color: black;
+      font-size: 0.8em !important; 
+      padding: 1em;
+      background-color: white;
+      font-weight: bold;
+  }
+  .pg2-left {
+      font-family: 'Trispace', sans-serif;
+      font-size: 15px;
+      width: 100% !important;
+      background-size: 100%;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      padding-bottom: 0px !important;
+      text-align: center;
+  
+      
+  }
+  .pg2-right {
+    float: left;
+      height: 100px !important;
+    background-size: 200% !important;
+     width: 100% !important;
+  }
+  .pg3-left {
+    font-family: 'Trispace', sans-serif;
+    font-size: 15px;
+    width: 100% !important;
+    background-size: 100%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    text-align: center;
+}
+  .tyr{
+   
+    padding-bottom: 150px !important;
+    background-image: url('phoneimg.png') !important;
+    background-size: 130% !important;
+  
+    background-repeat: repeat !important;
+    padding-top: 100px !important;
+    font-size: 30px !important;
+
+    
+    
+  }
+
+  #typewriter2{
+    font-size: 30px !important;
+  }
+ .pg4-left{
+   width: 1% !important;
+ }
+  .pg4-right{
+    font-family: 'Trispace', sans-serif;
+    font-size: 15px;
+    width: 100% !important;
+    background-size: 100%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    text-align: center;
+   }
+}
