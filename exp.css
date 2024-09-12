@@ -1,0 +1,407 @@
+.page2{
+  background-color:#000000;
+}
+body {
+   font-family: 'Trispace', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+.pg2-left {
+  font-family: 'Trispace', sans-serif;
+  font-size: 15px;
+  width: 35%;
+  background-size: 250%;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+ 
+
+
+}
+.pg3-left {
+  font-family: 'Trispace', sans-serif;
+
+  font-size: 15px;
+  width: 35%;
+  background-size: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+
+
+
+
+}
+.pg4-right {
+  font-family: 'Trispace', sans-serif;
+
+  font-size: 15px;
+  width: 35%;
+  background-size: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+
+
+}
+
+.pg4-left {
+
+  float: left;
+ background-size: 100%;
+
+ 
+  height: 400px;
+  width: 48%;
+
+
+
+}
+
+.pg5-left {
+  font-family: 'Trispace', sans-serif;
+
+  font-size: 15px;
+  width: 35%;
+  background-size: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 180px;
+  padding-top: 100px;
+
+
+
+}
+b{
+  font-size: 24;
+}
+
+.pg2-right {
+
+  float: right;
+ background-size: 100%;
+
+ background-color:#4e7e5a;
+
+ 
+  height: 400px;
+  width: 52%;
+
+
+
+}
+
+h1{
+padding: 3.5em;
+  text-align: center;
+  font-size: 20px
+
+}
+h2{
+  padding-left: 1em;
+ 
+}
+h3{
+  padding-left: 35px;
+}
+h4{
+  padding-top: 0.3em;
+  color: white;
+  font-size: 20px;
+}
+h5{
+  padding-top: 2em;
+  color: black;
+  font-size: 20px;
+}
+
+h6{
+  padding-left: 0.5em;
+  font-size: 10px;
+}
+h10{
+  text-align:center;
+  font-size: 50px;
+
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.historyList{
+  color:#ffFf;
+}
+
+
+
+nav{
+  text-align: right;
+  font-size:15px;
+  background-color: white;
+
+   font-weight: bold;
+}
+ul{
+  list-style-type: none;
+   background-color: white;
+  overflow: hidden;
+  padding: 3em;
+  margin-bottom: 1em;
+
+   font-weight: bold;
+}
+
+li{
+  display: inline;
+   background-color: white;
+
+
+
+}
+li a{
+  text-decoration: none;
+color: black;
+  font-size: 1.3em;
+  padding: 1em;
+   background-color: white;
+
+   font-weight: bold;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0 20px; /* Add padding for equal spacing on both sides */
+}
+
+.idk:hover, .idk_arrow:hover {
+    background-color: #e0f7e0;
+    color: #0a3d14;
+}
+
+
+h6{
+  font-size: 70px;
+}
+
+
+
+.main-section {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-color: black;
+
+}
+
+.filler {
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+  border: 50px;
+  border-radius: 10px;
+  border-color: blue;
+
+}
+
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.first-box {
+  position: relative;
+  background-color: white;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 1;
+}
+
+
+
+
+.form{
+  float: center;
+}
+
+.fill{
+  padding: 3.5em;
+  text-align: center;
+  font-size: 20px
+  color: #0f5721;
+}
+
+/* General Body Styling for Dark Theme */
+
+
+.showcase {
+    text-align: center;
+    max-width: 95vw; /* Increased width slightly */
+    height: 90vh;
+  
+    padding: 50px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #f0f0f0;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* Styling for Projects Grid */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px; /* Increased gap between projects */
+    padding-bottom: 20px;
+}
+
+/* Each Project Styling */
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "description preview"; /* Default layout */
+    background-color: #282828;
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #3c3c3c;
+    height: 50vh; /* Set height to cover half of the screen height */
+}
+
+/* Alternating Layout */
+.project:nth-child(even) {
+    grid-template-areas: "preview description"; /* Reverse layout for even projects */
+}
+
+/* Description and Preview Areas */
+.project-description {
+    grid-area: description;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.project:nth-child(even) .project-description {
+    text-align: right;
+}
+
+.project-preview {
+    grid-area: preview;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Project Description */
+.project-description h2 {
+    font-size: 24px; /* Increased font size */
+    margin-bottom: 10px;
+    color: #00A8FF;
+}
+
+.project-description p {
+    font-size: 18px; /* Increased font size */
+    color: #d3d3d3;
+}
+
+/* Styling for Iframe Previews */
+.project-preview iframe {
+    width: 100%;
+    height: 100%; /* Fill the entire preview area */
+    border-radius: 10px;
+    border: none;
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+}
+
+a:hover h2 {
+    color: #007BFF;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .project {
+        grid-template-columns: 1fr;
+        grid-template-areas: "description" "preview"; /* Stacked layout on small screens */
+        height: auto; /* Reset height for smaller screens */
+    }
+
+    .project-preview iframe {
+        height: 200px; /* Adjust iframe height on smaller screens */
+    }
+}
+
+/* Scrollbar Customization for Dark Theme */
+.showcase::-webkit-scrollbar {
+    width: 10px;
+}
+
+.showcase::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+.showcase::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 5px;
+}
+
+.showcase::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 60px;
+  max-width: 1200px;
+}
+.stat-item {
+  text-align: center;
+  margin: 0 10px;
+  font-size: 28px;
+  color: #e0e0e0;
+}
+.stat-item strong {
+  display: block;
+  font-size: 30px;
+  color: #9acd32; /* Dark green color */
+}
+.stat-item span {
+  font-size: 46px;
+  font-weight: bold;
+  color: #4caf50; /* Bright green color */
+}
