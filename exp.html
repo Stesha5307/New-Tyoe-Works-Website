@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="exp.css">
+  <link rel="stylesheet" href="phoneview.css">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Spectral:wght@200&display=swap" rel="stylesheet">
+
+  
+   
+</head>
+<body>
+  <div class="logo">
+    <img src="ntw.png" style="width: 10%; float: left; height: 60px; padding: 1px;"/> 
+  </div>
+  <nav> 
+    <ul style="display: flex; justify-content: space-between; padding: 10px; font-family: 'Trispace', sans-serif; list-style: none; margin: 0;">
+      <li style="flex: 1; text-align: center;">
+        <a href="index.html" style="display: block; padding: 8px 0;">Home</a>
+      </li>
+      <li style="flex: 1; text-align: center;">
+         <a href="index.html#pg2" style="display: block; padding: 8px 0;">About Us</a>
+      </li>
+      <li style="flex: 1; text-align: center;">
+        <a class="nav-link" href="req.html" style="display: block; padding: 8px 0;">Request a Website</a>
+      </li>
+      <li style="flex: 1; text-align: center;">
+        <a href="exp.html" style="display: block; padding: 8px 0;">Our Work</a>
+      </li>    
+      <li style="flex: 1; text-align: center;">
+        <a href="join.html" style="display: block; padding: 8px 0;">Join Our Team</a>
+      </li>
+    </ul>
+  </nav>
+  
+
+  
+ 
+
+  <section class="showcase">
+
+    <div class="stats">
+      <div class="stat-item">
+          🏆 <strong>Hackathons Hosted:</strong> <span id="hackathons">0</span>+
+      </div>
+      <div class="stat-item">
+          🌍 <strong>Lives Impacted:</strong> <span id="lives">0</span>+
+      </div>
+      <div class="stat-item">
+          💻 <strong>Websites Made:</strong> <span id="websites">0</span>+
+      </div>
+    </div>
+
+    <script>
+      function animateValue(id, start, end, duration) {
+          let obj = document.getElementById(id);
+          let range = end - start;
+          let current = start;
+          let increment = end > start ? 1 : -1;
+          let stepTime = Math.abs(Math.floor(duration / range));
+          let timer = setInterval(function() {
+              current += increment;
+              obj.textContent = current;
+              if (current == end) {
+                  clearInterval(timer);
+              }
+          }, stepTime);
+      }
+
+      animateValue("hackathons", 0, 1, 2000);
+      animateValue("lives", 0, 500, 2000);
+      animateValue("websites", 0, 75, 2000);
+    </script>
+
+      <div class="projects">
+          <div class="project">
+              <div class="project-description">
+                  <a href="https://yurei04.github.io/Coders-guild/" target="_blank">
+                      <h2>Coders Guild</h2>
+                  </a>
+                  <p>A platform for coders to collaborate and share knowledge.</p>
+              </div>
+              <div class="project-preview">
+                  <iframe src="https://yurei04.github.io/Coders-guild/" frameborder="0"></iframe>
+              </div>
+          </div>
+          <div class="project reverse">
+              <div class="project-preview">
+                  <iframe src="https://stellarvoyagers.vercel.app/" frameborder="0"></iframe>
+              </div>
+              <div class="project-description">
+                  <a href="https://stellarvoyagers.vercel.app/" target="_blank">
+                      <h2>Stellar Voyagers Club</h2>
+                  </a>
+                  <p>Explore the cosmos with the Stellar Voyagers community.</p>
+              </div>
+          </div>
+          <div class="project">
+              <div class="project-description">
+                  <a href="https://cosmosile.vercel.app/" target="_blank">
+                      <h2>Cosmosile</h2>
+                  </a>
+                  <p>A website created to explore the wonders of the universe.</p>
+              </div>
+              <div class="project-preview">
+                  <iframe src="https://cosmosile.vercel.app/" frameborder="0"></iframe>
+              </div>
+          </div>
+          <div class="project reverse">
+              <div class="project-preview">
+                  <iframe src="https://nwfreedom.vercel.app/" frameborder="0"></iframe>
+              </div>
+              <div class="project-description">
+                  <a href="https://nwfreedom.vercel.app/" target="_blank">
+                      <h2>NW Freedom</h2>
+                  </a>
+                  <p>A website focused on promoting freedom and creativity.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+     </section>
+  <script src="script.js"></script>
+</body>
+</html>
